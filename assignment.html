@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>columnspan and rowspan</title>
+    <style>
+        td{
+            text-align: center;
+        }
+        th{
+            color: chocolate;
+        }
+        .student{
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        h1{
+            text-align: center;
+            color: aliceblue;
+            background-color: black;
+        }
+        h2{
+            text-align: center;
+            color: rgba(20, 12, 175, 0.723);
+            background-color: rgba(64, 224, 208, 0.36);
+        }
+        thead{
+            background-color:rgb(220, 238, 130);
+        }
+      img{
+        height: 90px;
+        width: 200px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+      
+  
+      }
+        
+    </style>
+</head>
+<body>
+    <h1>CREATION OF TABLES USING TABLE TAG IN HTML</h1>
+    <table class="student" border="2">
+        <tr>
+        <th>ROLLNO</th>
+        <th>NAME</th>
+        <th>CLASS</th>
+        <th>MARKS(ENGLISH)</th>
+        <th>MARKS(SCIENCE)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>joe</td>
+            <td>3rd</td>
+            <td colspan="3" style="background-color: yellow;">30</td>
+
+        </tr>
+        <tr> 
+            <td>2</td>
+            <td>Nick</td>
+            <td rowspan="2" style="background-color: blue;">4th</td>
+            <td>45</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Priyanka</td>
+            <td>40</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <h2>AMAZON PRODUCTS</h2>
+    
+<img src="https://marketbusinessnews.com/wp-content/uploads/2022/05/Amazon-L.jpg">
+<br>
+    <table class="student" border="2">
+
+        <thead>
+            <th>NAME</th>
+            <th>PRICE</th>
+            <th>CATEGORIES</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Oneplus <b>12R</b></td>
+              
+                <td>39,990</td>
+                <td>Mobiles</td>
+            </tr>
+            <tr>
+                <td><span style="color: deeppink;">LAKHME</span> cc cream</td>
+                <td>255</td>
+                <td>Beauty</td>
+            </tr>
+            <tr>
+                <td>Boat Airdopes 141</td>
+                <td>1,299</td>
+                <td>Airpods</td>
+            </tr>
+            <tr>
+                <td> Swing Chair</td>
+                <td> 9,999</td>
+                <td>Furniture</td>
+            </tr>
+            <tr>
+                <td> Fastrack Smart watch</td>
+                <td>1,399</td>
+                <td>Accesories</td>
+            </tr>
+            <tr>
+                <td>Puma cascual Shoes</td>
+                <td>1,889</td>
+                <td>Footwear</td>
+            </tr>
+            <tr>
+                <td>prestige Gas Stove</td>
+                <td>3,995</td>
+                <td>kitchen Appliances</td>
+            </tr>
+            <tr>
+                <td><b style="color: coral;">CASASTYLE</b> sofa set </td>
+                <td>16,991</td>
+                <td>Furniture</td>
+            </tr>
+            <tr>
+                <td>POSHAX Men Shirt</td>
+                <td>379</td>
+                <td>Fashion</td>
+            </tr>
+            <tr>
+                <td>morepen bpo2 Bp monitor</td>
+                <td> 1,029</td>
+                <td>Pharmacy</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
